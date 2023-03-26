@@ -71,10 +71,10 @@ nav {
 }
 
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/MineralOne.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -71,7 +71,7 @@ nav {
 }
 
 .hero {
-  background-image: url("images/MineralTwo.jpg");
+  background-image: url("../images/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -107,7 +107,8 @@ p {
 .hero > h1,
 .hero > p {
   color: #eff1f3;
-  text-shadow: #223843;
+  text-shadow: #000;
+  background-color: #000;
 }
 
 form label {

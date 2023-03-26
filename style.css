@@ -70,16 +70,21 @@ nav {
   color: #d77a61;
 }
 
-.hero {
-  background-image: url("images/MineralTwo.jpg");
+/* Hero Section Styles */
+.hero-bg {
+  background-image: url("../images/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.hero-info {
+  max-width: 800px;
 }
 
 /* Main Styles */
@@ -104,10 +109,15 @@ p {
   line-height: 1.5;
 }
 
-.hero > h1,
-.hero > p {
+.hero-info > h1,
+.hero-info > p {
   color: #eff1f3;
-  text-shadow: #223843;
+  text-shadow: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
 }
 
 form label {

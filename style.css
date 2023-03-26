@@ -72,7 +72,7 @@ nav {
 
 /* Hero Section Styles */
 .hero-bg {
-  background-image: url("../images/MineralTwo.jpg");
+  background-image: url("images/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;

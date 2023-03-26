@@ -18,7 +18,7 @@ Alegreya Sans
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Alegreya Sans', sans-serif; 
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 body {
@@ -32,7 +32,7 @@ header {
   background-color: #223843;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  font-family: 'Alegreya SC', serif;
+  font-family: "Alegreya SC", serif;
 }
 
 nav {
@@ -71,7 +71,7 @@ nav {
 }
 
 .hero {
-  background-image: url("../images/MineralOne.jpg");
+  background-image: url("../images/background-1.jpg");
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -87,14 +87,13 @@ nav {
 main {
   /* max-width: 800px; */
   margin: 0 auto;
-  padding: 20px;
 }
 
 h1 {
   font-size: 64px;
   font-weight: bold;
   margin-bottom: 40px;
-  font-family: 'Alegreya SC', serif;
+  font-family: "Alegreya SC", serif;
   /* center text */
   text-align: center;
 }
@@ -103,6 +102,12 @@ p {
   font-size: 18px;
   margin-bottom: 20px;
   line-height: 1.5;
+}
+
+.hero > h1,
+.hero > p {
+  color: #eff1f3;
+  text-shadow: #223843;
 }
 
 form label {

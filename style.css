@@ -70,7 +70,8 @@ nav {
   color: #d77a61;
 }
 
-.hero-info {
+/* Hero Section Styles */
+.hero-bg {
   background-image: url("../images/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
@@ -80,6 +81,10 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.hero-info {
+  max-width: 800px;
 }
 
 /* Main Styles */
@@ -108,6 +113,11 @@ p {
 .hero-info > p {
   color: #eff1f3;
   text-shadow: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 form label {

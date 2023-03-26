@@ -70,7 +70,7 @@ nav {
   color: #d77a61;
 }
 
-.hero {
+.hero-info {
   background-image: url("../images/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
@@ -104,8 +104,8 @@ p {
   line-height: 1.5;
 }
 
-.hero > h1,
-.hero > p {
+.hero-info > h1,
+.hero-info > p {
   color: #eff1f3;
   text-shadow: #000;
 }

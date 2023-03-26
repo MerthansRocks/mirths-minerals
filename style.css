@@ -4,6 +4,10 @@
 #b46a58
 #2b2b2b */
 
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Alegreya+Sans:wght@400;500&display=swap');
+
 /* Global Styles */
 
 * {
